@@ -1,0 +1,86 @@
+/* Main heading must be red */
+h1 {
+  color: red;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  color: #333;
+}
+
+header {
+  background: navy;
+  color: white;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-weight: bold;
+  }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.card {
+  background: white;
+  width: 80%;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+img {
+  width: 300px;
+  max-width: 90%;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+button {
+  background: navy;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkred;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px;
+  }
+
+  .card {
+    width: 92%;
+  }
+}
